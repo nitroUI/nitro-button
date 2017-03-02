@@ -1,12 +1,19 @@
 <template>
-  <button>{{text}}</button>
+  <button v-on:click="showAlert">{{text}}</button>
 </template>
 
 <script>
 export default {
-  props: ['text'],
+  props: ['text', 'alert'],
   data () {
     return {
+    }
+  },
+  methods: {
+    showAlert: function() {
+      if (this.alert) {
+        alert('Hello! Buttercup!');
+      }
     }
   }
 }
