@@ -1,0 +1,7 @@
+{
+	"guid" : "b9f8",
+	"name" : "button",
+	"frameworks": ["vue", "react"],
+	"dependencies": null,
+	"id" : "comp_217"
+}
